@@ -1,156 +1,20 @@
-*{
-	box-sizing: border-box;
-}
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video 
-{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-	overflow: hidden;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    background: #000;
 }
 
-/********debut de mon css******/
-
-
-body{
-    height: 2000px;
-    width: 100%;
-    
-}
-
-.aside-left{
-    width: 65%;
-    height: 2000px;
-    background-color: black;
-    float: left;
-}
-
-.aside-right{
-    width: 35%;
-    height: 2000px;
-    background-color:#272a27;
-    float: left;
-}
-
-.square-up{
-    position:fixed;
-    bottom: 553px;
-    right: 513px;
-    height: 100px;
-    width: 100px;
-    border-radius: 10px 10px 10px 10px;
-    background-color:#40403F;
-}
-
-.square-middle{
-    position:fixed;
-    bottom:  436px;
-    right: 513px;
-    height: 100px;
-    width: 100px;
-    border-radius: 10px 10px 10px 10px;
-    background-color:#40403F;
-
-}
-
-.square-down{
-    position:fixed;
-    bottom:  319px;
-    right: 513px;
-    height: 100px;
-    width: 100px;
-    border-radius: 10px 10px 10px 10px;
-    background-color:#40403F;
-
-}
-.circle{
-    border-radius: 50%;
-    border: aliceblue;
-    width: 107px;
-    height: 107px;
-    border: 2px solid #40403F;
+.aside-left {
     position: fixed;
-    bottom: 190px;
-    right: 508PX;
-}
-.crossVertic{
-    background: #888;
-    position: absolute;
-    display:block;
-    content:'';
-    width: 70%;
-    height: 1%;
-    top: 47%;
-    left: 15%;
-    transform: rotate(0deg);
-
-}
-.crossHorizon{
-    background: #888;
-    position: absolute;
-    display:block;
-    content:'';
-    width: 70%;
-    height: 1%;
-    top: 47%;
-    left: 15%;
-    transform: rotate(90deg);
-
+    top:      0;
+    bottom:   0;
+    left:     0;
+    width:    calc(100% - 300px);
 }
 
-
-.svg-inline--fa.fa-trash-alt.fa-w-14{
-    color: darkgrey;
-    height: 35px;
-    position: fixed;
-    right: 13px;
-    bottom:628px;
-    font-size:20px;
+.aside-right {
+    background: #222;
+    position:   fixed;
+    top:        0;
+    bottom:     0;
+    right:      0;
+    width:      300px;
 }
-
-.svg-inline--fa.fa-lock.fa-w-14{
-    COLOR: darkgrey;
-    position: fixed;
-    right: 520px;
-    bottom: 628px;
-    font-size: 20px
-}
-
