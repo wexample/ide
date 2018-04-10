@@ -1,5 +1,6 @@
 body {
-    background: #000;
+    background:  #000;
+    font-family: "Quicksand", sans-serif;
 }
 
 .aside-left {
@@ -17,4 +18,19 @@ body {
     bottom:     0;
     right:      0;
     width:      300px;
+}
+
+.code-input-container {
+    padding: 20px;
+}
+
+.code-input-container h5 {
+    font-size: 18px;
+    color: #888;
+    margin: 0;
+}
+
+.code-input {
+    width:  100%;
+    height: 100px;
 }
