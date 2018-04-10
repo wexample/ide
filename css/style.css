@@ -1,5 +1,5 @@
 body {
-    background:  #000;
+    background:  #fff;
     font-family: "Quicksand", sans-serif;
 }
 
@@ -26,8 +26,8 @@ body {
 
 .code-input-container h5 {
     font-size: 18px;
-    color: #888;
-    margin: 0;
+    color:     #888;
+    margin:    0;
 }
 
 .code-input {
